@@ -1,0 +1,56 @@
+body {
+    background-size: cover;
+    background-color: lightgray;
+    color: rgb(33, 157, 235)
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 340%;
+    font-weight: bolder;
+}
+
+.container {
+    height: auto;
+    text-align: center;
+    display: block;
+    z-index: 1;
+    clear: both;
+}
+
+.pageTitle {
+    background-color: white;
+    height: 1700px;
+    padding: 20px;
+    /* clear: both; */
+    text-align: center;
+}
+
+button.animal-button {
+    background-color: rgb(62, 134, 241);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    border: none;
+}
+
+#button-holder {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#button-text {
+    padding-left: 10px;
+    width: 66%;
+}
+
+#gifs-appear-here {
+    margin-left: 10%;
+}
+
+.animal-gif-class {
+    float: left;
+    text-align: left;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px; 
+}
