@@ -25,7 +25,7 @@ $("#button-holder").on("click", ".animal-button", function(event) {
     var animal = $(this).attr("data-animal");
     
     // API URL to Giphy.com with API Key
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=tOotoZZfy7LUygoZTqmja2tWOg5Q1qlu&limit=10";
+    var queryURL = "api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=tOotoZZfy7LUygoZTqmja2tWOg5Q1qlu&limit=10";
 
     //AJAX
     $.ajax({
