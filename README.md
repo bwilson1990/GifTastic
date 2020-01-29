@@ -1,4 +1,6 @@
-# unit-6-gifs (Giphy API)
+# Giphy API
+
+## Overview 
 
 Created a website that is able to generate a button based on the text input 
 and search through the .gif API library from giphy.com.
@@ -9,3 +11,15 @@ When the button is clicked, the page generates 10 image results from the Giphy A
 
 Also, this assignment shows how to use AJAX, a jQuery method to get the website url and API information
 to be generated in the DOM.
+
+---
+
+## Deployed Link:
+
+[Animal Gifs!](https://bwilson1990.github.io/GifTastic/)
+
+---
+
+## Screenshot
+
+![homepage](04-animal-gif.png)
